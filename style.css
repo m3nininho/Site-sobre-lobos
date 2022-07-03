@@ -1,7 +1,7 @@
 body {
   font-family: "Oswald", sans-serif;
   font-family: "Raleway", sans-serif;
-  background-image: url("/img/Um-lobo-negro.jpg");
+  background-image: url("/img/jessicasuarez_americanredwolf_20211203-1.jpg");
   background-repeat: no-repeat;
   background-position: center 0;
   background-size: cover;
@@ -10,7 +10,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background: rgba(127, 137, 155, 0.466); */
   padding: 1em;
 }
 
@@ -43,10 +42,22 @@ form button:hover {
 }
 .botao {
   display: flex;
-  background: #febe01;
-  color: #332200;
-  padding: 1em;
-  border-radius: 1em;
-  width: 3em;
+  justify-content: center;
+  align-items: center;
+  padding: 13em;
+  padding-right: 2.5em;
+  padding-left: 2.5em;
+}
+.botao1 {
+  display: inline-block;
+  background: #a39c8881;
+  color: #000000;
+  padding: 0.5em;
+  border-radius: 1.5em;
   text-decoration: none;
+  border: 2px solid #95a5a6;
+}
+.botao1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
